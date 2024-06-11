@@ -1,0 +1,73 @@
+/* Centraliza o componente na tela */
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos para o formulário */
+  form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para os campos de entrada */
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form div label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form div input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para os botões */
+  form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para o botão de login */
+  form button.access {
+    background-color: #4CAF50; /* verde escuro */
+    color: white;
+  }
+  
+  /* Estilo para o botão de cadastro */
+  form button.register {
+    background-color: #fdd835; /* amarelo */
+    color: black;
+  }
+  
+  /* Estilo para os botões quando passa o mouse por cima */
+  form button:hover {
+    opacity: 0.8;
+  }
+  .imagem-pequena {
+    display: block;
+    margin: 0 auto; /* Isso centraliza horizontalmente a imagem */
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Isso garante que a proporção da imagem seja mantida */
+    margin-top: 0px; /* Ajuste o espaçamento conforme necessário */
+}
+
+
+  

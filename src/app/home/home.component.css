@@ -1,0 +1,90 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #0c045b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Adiciona posição relativa para posicionar o botão */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha os itens no início do eixo transversal (esquerda) */
+  padding-left: 20px; /* Adiciona um espaço à esquerda para afastar os botões da borda */
+}
+
+.nav-button, .btn-paroquia-web {
+  width: 200px; /* Defina a largura fixa para os botões */
+  background-color: white;
+  color: #4B0082;
+  border: 2px solid #4B0082;
+  padding: 8px 16px; /* Reduz o preenchimento para diminuir o tamanho dos botões */
+  margin: 5px 0; /* Diminui a margem entre os botões */
+  font-size: 20px; /* Define um tamanho de fonte menor */
+  border-radius: 5px;
+}
+
+.nav-button:hover {
+  background-color: #8A2BE2;
+  color: white;
+}
+
+.btn-paroquia-web {
+  background-color: #8A2BE2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px; /* Define um tamanho de fonte menor */
+}
+
+.welcome-box {
+  color: rgb(224, 0, 0);
+  font-size: 24px; /* Define um tamanho de fonte menor */
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.btn-deslogar {
+  background-color: red;
+  color: white;
+}
+
+.welcome-box {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-family: "family";
+  text-shadow: -2px -2px 0 rgb(55, 2, 89), 2px -2px 0 rgb(55, 2, 89), -2px 2px 0 rgb(55, 2, 89), 2px 2px 0 rgb(55, 2, 89); /* Adiciona um contorno preto */
+}
+
+
+.right-section {
+  flex: 4;
+  background-image: url('https://cdn.arquidiocesesalvador.org.br/wp-content/uploads/2021/07/fotografiareligiosa_1567826360-scaled.jpg'); 
+  background-size: cover; /* Redimensiona a imagem para cobrir todo o espaço disponível */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center; /* Centraliza a imagem */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ministro-eucaristia {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: "family";
+  text-align: center;
+  text-shadow: -2px -2px 0 rgb(55, 2, 89), 2px -2px 0 rgb(55, 2, 89), -2px 2px 0 rgb(55, 2, 89), 2px 2px 0 rgb(55, 2, 89); 
+}

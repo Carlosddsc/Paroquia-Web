@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>
+    Lista <span class="subtitulo">de Cadastros</span>
+  </h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome Completo</th>
+        <th>Email</th>
+        <th>Idade</th>
+        <th>Paróquia</th>
+        <th>Servo</th>
+        <th>ADM</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <td>{{ usuario.email }}</td>
+        <td>{{ usuario.nome }}</td>
+        <td>{{ usuario.idade }}</td>
+        <td>{{ usuario.paroquia }}</td>
+        <td>{{ usuario.servindo }}</td>
+        <td>
+          <button class="delete" (click)="adm(usuario)">
+            {{usuario.adm}}
+          </button>
+        </td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+<button class="back-button" (click)="goToVoltarHome()">Voltar para Home</button>

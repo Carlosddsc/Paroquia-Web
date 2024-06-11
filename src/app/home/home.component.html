@@ -1,0 +1,22 @@
+<div class="home-container">
+  <div class="left-section">
+    <div class="button-container">
+      <button class="nav-button" (click)="goToEventos()">Eventos</button>
+      <button class="nav-button" (click)="goToInformacoes()">Informações</button>
+      <button class="nav-button" (click)="goToMinisterio()">Ministério</button>
+      <div *ngFor="let usuario of usuarios">
+        <button class="nav-button" (click)="goToCadastro(usuario)">Cadastro</button>
+      </div>
+      <button class="nav-button btn-deslogar" (click)="goToLogin()">Deslogar</button> <!-- Botão de logout -->
+    </div>
+    <button class="btn-paroquia-web">Paróquia Web</button>
+  </div>
+  <div class="right-section">
+    <div class="welcome-box">
+      <h2>Seja Bem-Vindo!</h2>
+    </div>
+    <div class="ministro-eucaristia">
+      <h1>Ministro da Eucaristia</h1>
+    </div>
+  </div>
+</div>

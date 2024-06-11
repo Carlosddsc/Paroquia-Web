@@ -1,0 +1,17 @@
+<!-- src/app/login/login.component.html -->
+<form (submit)="login()">
+  <div>
+    <label>Email:</label>
+    <input type="email" name="email" [(ngModel)]="email" required>
+  </div>
+  <div>
+    <label>Senha:</label>
+    <input type="password" name="password" [(ngModel)]="password" required>
+  </div>
+  <button type="submit" class="access">Acessar Conta</button>
+  <button type="button" class="register" (click)="goToCadastro()">Cadastrar</button>
+  <img src="assets/logotcc.png" alt="logotcc.png" class="imagem-pequena">
+
+  <!-- Exibição da mensagem de erro -->
+  <div id="error-message" class="error-message" style="display: none;"></div>
+</form>

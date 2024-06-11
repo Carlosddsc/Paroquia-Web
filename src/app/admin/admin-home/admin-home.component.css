@@ -1,0 +1,69 @@
+.admin-home-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  flex: 1; /* Ajuste a largura conforme necessário */
+  max-width: 300px; /* Defina a largura máxima */
+  background-color: #030851;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centralizar verticalmente */
+  align-items: center; /* Centralizar horizontalmente */
+  padding: 20px;
+}
+
+.admin-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centralizar horizontalmente */
+}
+
+.admin-nav-button {
+  width: 200px;
+  background-color: white;
+  color: #4B0082;
+  border: 2px solid #4B0082;
+  padding: 8px 16px;
+  margin-bottom: 10px; /* Espaçamento entre os botões */
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.admin-nav-button:hover {
+  background-color: #8A2BE2;
+  color: white;
+}
+
+.right-section {
+  flex: 2;
+  background-image: url('https://www.bompastorpraia.com.br/wp-content/uploads/2019/12/communion-2110404_1280-1024x683.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-welcome-box {
+  color: rgb(48, 3, 107);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-logo img {
+  width: 200px;
+}
+
+.right-section h1 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}

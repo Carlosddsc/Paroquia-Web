@@ -1,0 +1,76 @@
+<div style="background-color: #0c045b; padding: 20px; text-align: center; color: rgb(255, 255, 255);">
+  <h2>Informações para Ministro</h2>
+  <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
+    
+   <button (click)="toggleInformacao(1)">Credência</button>
+  <div id="info1" [hidden]="!informacaoVisivel[0]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(2)">Cálice, Galheta e Âmbula</button>
+    <div id="info2" [hidden]="!informacaoVisivel[1]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(3)">Caldeirinha e aspersório</button>
+    <div id="info3" [hidden]="!informacaoVisivel[2]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(4)">Turíbulo e naveta</button>
+    <div id="info4" [hidden]="!informacaoVisivel[3]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(5)">Ostensório</button>
+    <div id="info5" [hidden]="!informacaoVisivel[4]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(6)">Teca</button>
+    <div id="info6" [hidden]="!informacaoVisivel[5]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(7)">Crismera</button>
+    <div id="info7" [hidden]="!informacaoVisivel[6]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(8)">Lavabo e manustérgio</button>
+    <div id="info8" [hidden]="!informacaoVisivel[7]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(9)">Cruz processional</button>
+    <div id="info9" [hidden]="!informacaoVisivel[8]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(10)">Missal Romano</button>
+    <div id="info10" [hidden]="!informacaoVisivel[9]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(11)">Conopeu</button>
+    <div id="info11" [hidden]="!informacaoVisivel[10]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(12)">Véu Umeral</button>
+    <div id="info12" [hidden]="!informacaoVisivel[11]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(13)">Báculo, Mitra e Solidéu</button>
+    <div id="info13" [hidden]="!informacaoVisivel[12]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(14)">Matraca</button>
+    <div id="info14" [hidden]="!informacaoVisivel[13]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(15)">Lecionário</button>
+    <div id="info15" [hidden]="!informacaoVisivel[14]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(16)">Livro de preces</button>
+    <div id="info16" [hidden]="!informacaoVisivel[15]" style="margin-bottom: 20px;"></div>
+
+    <button (click)="toggleInformacao(17)">Evangeliário</button>
+    <div id="info17" [hidden]="!informacaoVisivel[16]" style="margin-bottom: 20px;"></div>
+  </div>
+
+  <div class="botoes-container">
+    <!-- Grupo de 5 botões com fundo preto e texto branco -->
+    <button class="black-button" (click)="toggleInformacao(18)">Preparação Missa</button>
+    <div id="info18" [hidden]="!informacaoVisivel[17]" style="margin-bottom: 20px;">
+      <!-- Adicione o texto fornecido aqui -->
+    </div>
+        <button class="black-button" (click)="toggleInformacao(19)">Visita aos Doentes</button>
+    <button class="black-button" (click)="toggleInformacao(20)">Adoração ao Santíssimo</button>
+    <button class="black-button" (click)="toggleInformacao(21)">Vestes Litúrgicas</button>
+    <button class="black-button" (click)="toggleInformacao(22)">Mandato</button>
+  </div>
+  
+  <div class="header">
+    <button (click)="voltarParaHome()">Voltar para Home</button>
+  </div>
+  
+  <div class="informacoes-container">
+    <!-- Conteúdo das informações aqui -->
+  </div>
+  

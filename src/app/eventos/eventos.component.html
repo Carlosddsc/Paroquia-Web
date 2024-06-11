@@ -1,0 +1,20 @@
+<div class="eventos-container">
+  <div class="header">
+    <h1>Agenda</h1>
+    <h2>de Eventos</h2>
+    <button class="back-button" (click)="goToHome()">Voltar para a Home</button>
+  </div>
+  <div class="event-list">
+    <div *ngFor="let event of eventos" class="event-item" [ngClass]="{'confirmed': event.status === 'confirmed', 'denied': event.status === 'denied'}">
+      <div class="event-details">
+        <p><strong>Data:</strong> {{ event.data }}</p>
+        <p><strong>Hora:</strong> {{ event.hora }}</p>
+        <p><strong>Informações Adicionais:</strong> {{ event.informacoes }}</p>
+      </div>
+      <div class="event-actions">
+        <button (click)="confirmEvent(event)">Confirmar</button>
+        <button (click)="denyEvent(event)">Negar</button>
+      </div>
+    </div>
+  </div>
+</div>

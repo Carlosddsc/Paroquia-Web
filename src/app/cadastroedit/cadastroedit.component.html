@@ -1,0 +1,33 @@
+<body>
+    <div class="container">
+      <img src="assets/logotcc.png" alt="Logo" class="logo">
+      <h1>Editar Cadastro</h1>
+      <form [formGroup]="editar" (ngSubmit)="onSubmit()">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" formControlName="email" required>
+  
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" formControlName="idade" required min="0" max="100">
+
+  
+        <label for="paroquia">Paróquia</label>
+        <select id="paroquia" formControlName="paroquia" required>
+          <option value="santana">Paróquia Sant'Ana</option>
+          <option value="saojoaquim">Paróquia São Joaquim</option>
+        </select>
+  
+        <label for="servindo">Servindo como</label>
+        <select id="servindo" formControlName="servindo" required>
+          <option value="ministro">Ministro</option>
+          <option value="acolito" disabled>Acólito</option>
+          <option value="leitor" disabled>Leitor</option>
+        </select>
+  
+        <div class="buttons">
+          <button type="submit">Atualizar</button>
+        </div>
+      </form>
+    </div>
+  
+  </body>
+  

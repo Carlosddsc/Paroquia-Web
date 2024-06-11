@@ -1,0 +1,103 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100vh; /* Define a altura da div.content como 100% da altura da janela */
+  background-image: url('https://portal.bibliacatolica.com.br/wp-content/uploads/cwv-webp-images/2023/02/eucharist-g80924e83b_1920.jpg.webp');
+  background-size: cover;
+  background-position: center;
+  overflow: auto; /* Adiciona barra de rolagem quando necessário */
+  color: #fff; /* Cor do texto branco */
+}
+
+/* Estilo para os campos de entrada */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #6a0dad; /* Borda roxa */
+  border-radius: 5px;
+  background-color: #fff; /* Cor de fundo branca */
+  color: #000; /* Cor do texto preto */
+}
+
+/* Estilo para os botões */
+button {
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  color: white; /* Texto branco */
+  border-radius: 5px;
+}
+
+/* Estilo para o botão de confirmar */
+button.confirmar {
+  background-color: green; /* Verde */
+}
+
+/* Estilo para o título "Agenda de Eventos" */
+h1 {
+  text-align: center;
+  font-size: 36px; /* Tamanho grande */
+  margin-bottom: 10px;
+}
+
+/* Estilo para a parte "Agenda" */
+h1 span.agenda {
+  font-size: 48px; /* Tamanho maior */
+}
+
+/* Estilo para a parte "de Eventos" */
+h1 span.de-eventos {
+  font-size: 24px; /* Tamanho menor */
+  display: block; /* Coloca em uma linha diferente */
+}
+
+/* Estilo para a nova tabela de eventos */
+#eventos-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d2b4de; /* Fundo roxo mais claro para a tabela */
+}
+
+#eventos-table th {
+  background-color: #6a0dad; /* Tonalidade de roxo mais escuro */
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+#eventos-table td {
+  padding: 10px;
+  border: 1px solid #6a0dad; /* Borda roxa */
+  color: white; /* Cor branca */
+}
+
+#eventos-table button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white; /* Texto branco */
+}
+
+#eventos-table .confirmar {
+  background-color: green; /* Verde */
+}
+
+#eventos-table .negar {
+  background-color: red; /* Vermelho */
+}
+
+#eventos-table button:hover {
+  filter: brightness(1.2); /* Aumenta a luminosidade em 20% */
+}
+
+.delete{
+  background-color: red;
+}

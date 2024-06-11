@@ -1,0 +1,48 @@
+/* ministerio.component.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Define a altura para ocupar toda a tela */
+  background-color: #0c045b; /* Roxo escuro */
+  color: #8A2BE2; /* Roxo mais claro */
+  padding: 20px;
+  box-sizing: border-box; /* Inclui o padding no cálculo da largura e altura */
+}
+
+/* Estilizando o título "Sejam bem-vindos ao Ministério" */
+h2 {
+  border: 2px solid #8A2BE2; /* Adiciona uma borda roxa de 2px ao redor */
+  border-radius: 10px; /* Curva os cantos */
+  padding: 20px; /* Adiciona um espaçamento interno de 20px */
+  background-color: #FFFFFF; /* Fundo branco */
+  color: #4B0082; /* Roxo escuro */
+}
+
+/* Estilizando o texto "Função do Ministério" */
+p {
+  color: #4B0082; /* Roxo escuro */
+  background-color: #FFFFFF; /* Fundo branco */
+  padding: 10px; /* Adiciona um espaçamento interno de 10px */
+  border: 2px solid #8A2BE2; /* Adiciona uma borda roxa de 2px ao redor */
+  border-radius: 10px; /* Curva os cantos */
+  display: inline-block; /* Faz com que o elemento se comporte como um bloco, permitindo definir largura e altura */
+}
+
+/* Estilizando o botão "Voltar para Home" */
+.btn-voltarhome {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #8A2BE2; /* Roxo mais escuro */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-voltarhome:hover {
+  background-color: #4B0082; /* Roxo mais claro */
+}

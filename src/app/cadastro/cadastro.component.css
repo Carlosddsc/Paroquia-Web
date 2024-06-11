@@ -1,0 +1,64 @@
+body {
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5Al74yAIoxyeE8nkDrZ-t0bngEaf4cJ8I0YNQGXw2q2YY_N3sZSoRUQTVrNCrfoz8h-7JBg7tz9nXethepZ464U5_8UByuKYzJJhpaZf5fA_I-Xuv-IuJ1OjLdHw8FBP9pmdpj6R1Nkb7RL9lyhutSh6yud3PqCuzgT3XYHaO2aLGxdbSPoO1swjCPolC/s2048/239427876_2999161840352860_1912193117680242437_n.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #003366;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: -40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 5px 0 5px;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0059b3;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004080;
+}

@@ -1,0 +1,24 @@
+<!-- ministerio.component.html -->
+<div class="container">
+  <h2>Sejam bem-vindos ao Ministério {{ nomeMinisterio }}</h2>
+  <p>Função do Ministério: Os ministros têm como principal função desenvolver ações de orientação,
+     coordenação e supervisão dos órgãos e entidades das áreas de suas competências,
+     além de referendar os atos assinados pelo presidente, 
+     assinando-os também para se responsabilizar por eles, e expedir instruções 
+     para a execução das leis, decretos e regulamentos. {{ funcaoMinisterio }}</p>
+  
+  <!-- Carrossel de imagens -->
+  <div class="carousel">
+    <!-- Adicione suas imagens aqui -->
+  </div>
+  
+  <!-- Vídeo do YouTube -->
+  <div>
+    <iframe width="560" height="315" [src]="getVideoUrl()" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Botão para voltar para home -->
+  
+<button class="btn-voltarhome" (click)="voltarParaHome()">Voltar para Home</button>
+</div>
+
