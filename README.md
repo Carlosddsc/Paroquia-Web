@@ -2,7 +2,7 @@
 
 <img src="https://github.com/Carlosddsc/Paroquia-Web/assets/117870309/211b7818-4393-4fc5-b39d-0c6f93d9caa7" alt="[Brown and Yellow Minimalist Church Logo](https://github.com/Carlosddsc/Paroquia-Web/assets/117870309/be877dda-6f25-4d83-bf55-17fa2ee0c309)" width="200">
 
-Veja o site pelo Link - 
+Navegue pelo Aplicativo - https://paroquiaweb-a0d4a.web.app/login
 
 # <span style="font-size:larger;">Descrição</span>
 
